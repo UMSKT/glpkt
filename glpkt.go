@@ -776,7 +776,7 @@ func (a *pathArray) Set(v string) error {
 func usage() {
     fmt.Printf("usage: %s -i DLL/BINK [-i DLL/BINK...] product_key...\n\n", os.Args[0])
     fmt.Printf("example: %s -i xp_sp1.dll -i res0.bink TB32G-8C8RG-TP7RM-TV7VC-CYFDJ WB8RR-Q4R9P-B46B8-9XMFW-BRGXY HWMVT-FB8QC-YTR96-G8VVV-3XBJ7\n", os.Args[0])
-    fmt.Printf("\nto generate a new BINK: %s -i newkey.bink binkResourceId\n", os.Args[0])
+    fmt.Printf("\nto generate a new BINK: %s -G -i newkey.bink binkResourceId\n", os.Args[0])
 }
 
 func main() {
